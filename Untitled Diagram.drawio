@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T09:05:51.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="7_7f50fBAC3UoTZUjqvE" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T09:09:33.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="0A9UgXPBYkBZK_UE3d_N" version="14.6.13" type="github">
   <diagram id="9hDP-JxcBApaVpeGbo42" name="Page-1">
     <mxGraphModel dx="1021" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -394,6 +394,14 @@
         <mxCell id="lwf3BBHvjB3YT5emJyM9-146" value="下单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="lwf3BBHvjB3YT5emJyM9-142" target="lwf3BBHvjB3YT5emJyM9-145">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-154" value="根据规则过期优惠券" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="lwf3BBHvjB3YT5emJyM9-142" target="lwf3BBHvjB3YT5emJyM9-153">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3528" y="2216" />
+              <mxPoint x="3764" y="2216" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="lwf3BBHvjB3YT5emJyM9-142" value="已领取" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="3503" y="2165" width="50" height="50" as="geometry" />
         </mxCell>
@@ -423,6 +431,14 @@
         </mxCell>
         <mxCell id="lwf3BBHvjB3YT5emJyM9-151" value="结束" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="3745" y="1957" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="lwf3BBHvjB3YT5emJyM9-153">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3795.4705882352946" y="1996.8823529411766" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-153" value="已过期" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3725" y="2188" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
