@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T06:09:18.143Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="_g8-cF2VVZLyuZRzkx5X" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T06:25:52.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="25Kz6dRDuqAdEAVtUOnN" version="14.6.13" type="github">
   <diagram id="9hDP-JxcBApaVpeGbo42" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -192,6 +192,116 @@
               <mxPoint x="2162" y="964" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-96" value="兑换优惠券" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lwf3BBHvjB3YT5emJyM9-92" target="lwf3BBHvjB3YT5emJyM9-93">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2840" y="570" />
+              <mxPoint x="2840" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-106" value="使用" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lwf3BBHvjB3YT5emJyM9-92" target="lwf3BBHvjB3YT5emJyM9-93">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2870" y="930" />
+              <mxPoint x="2870" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-92" value="虚拟需兑换的优惠券使用流程" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="420" width="100" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lwf3BBHvjB3YT5emJyM9-93" target="lwf3BBHvjB3YT5emJyM9-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3270" y="630" />
+              <mxPoint x="3270" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-98" value="查询需兑换优惠券列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lwf3BBHvjB3YT5emJyM9-97">
+          <mxGeometry x="-0.1433" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lwf3BBHvjB3YT5emJyM9-93" target="lwf3BBHvjB3YT5emJyM9-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3260" y="760" />
+              <mxPoint x="3260" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-102" value="兑换" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lwf3BBHvjB3YT5emJyM9-101">
+          <mxGeometry x="-0.1633" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-109" value="选择已领取优惠券" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lwf3BBHvjB3YT5emJyM9-93" target="lwf3BBHvjB3YT5emJyM9-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3280" y="990" />
+              <mxPoint x="3280" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-93" value="青少app" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="420" width="100" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lwf3BBHvjB3YT5emJyM9-94" target="lwf3BBHvjB3YT5emJyM9-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3510" y="680" />
+              <mxPoint x="3510" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-100" value="查询需兑换优惠券列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lwf3BBHvjB3YT5emJyM9-99">
+          <mxGeometry x="0.1233" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lwf3BBHvjB3YT5emJyM9-94" target="lwf3BBHvjB3YT5emJyM9-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3510" y="790" />
+              <mxPoint x="3510" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-104" value="兑换" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lwf3BBHvjB3YT5emJyM9-103">
+          <mxGeometry x="-0.09" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-94" value="青少app后台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="418" width="100" height="692" as="geometry" />
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-95" value="营销服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3600" y="418" width="100" height="622" as="geometry" />
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-105" value="校验并领取优惠券" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3649.5" y="831" as="sourcePoint" />
+            <mxPoint x="3650" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3770" y="831" />
+              <mxPoint x="3770" y="890" />
+              <mxPoint x="3650" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lwf3BBHvjB3YT5emJyM9-107" target="lwf3BBHvjB3YT5emJyM9-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2740" y="640" />
+              <mxPoint x="2740" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lwf3BBHvjB3YT5emJyM9-107" value="学员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="610" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
