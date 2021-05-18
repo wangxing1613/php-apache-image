@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T10:08:39.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="w8jgclX2iUQ-gkNzHNEN" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T10:15:45.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ZU_P1StAWw_OpAYYVLlA" version="14.6.13" type="github">
   <diagram id="TB6BOxBuAfJZqDdy8tiT" name="Page-1">
     <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,6 +84,39 @@
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-28" value="1.生成指定数量的优惠券&lt;br&gt;2.生成指定数量的优惠券生成记录" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="575" y="850" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wlPglwLVcUlU7t9mJw_d-30" target="wlPglwLVcUlU7t9mJw_d-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-30" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wlPglwLVcUlU7t9mJw_d-31" target="wlPglwLVcUlU7t9mJw_d-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-31" value="兑换优惠券" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wlPglwLVcUlU7t9mJw_d-33" target="wlPglwLVcUlU7t9mJw_d-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-38" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wlPglwLVcUlU7t9mJw_d-33" target="wlPglwLVcUlU7t9mJw_d-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-33" value="优惠券是否有效" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="405" y="1180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-35" value="1. 根据兑换码是否能检索到优惠券&lt;br&gt;&lt;div&gt;&lt;span&gt;2.优惠券是否有效（在有效期里，是否超过领取数量限制，优惠券状态是否正常）&lt;/span&gt;&lt;/div&gt;3.领取方式是否为兑换码兑换" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="550" y="990" width="325" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wlPglwLVcUlU7t9mJw_d-37" target="wlPglwLVcUlU7t9mJw_d-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-37" value="领取优惠券" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-39" value="1.更新优惠券状态为2 已领取&lt;br&gt;2.插入学员优惠券关系表记录&lt;br&gt;3.插入优惠券领取记录，领取方式为：4：兑换码兑换" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1300" width="270" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
