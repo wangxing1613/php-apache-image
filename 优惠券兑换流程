@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T07:10:42.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="jthAQ1bR0ZDB8k2uhLxj" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T08:53:25.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="I5XHCHC_QbBuaSBn1qlx" version="14.6.13" type="github">
   <diagram id="TB6BOxBuAfJZqDdy8tiT" name="Page-1">
     <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="wlPglwLVcUlU7t9mJw_d-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlPglwLVcUlU7t9mJw_d-7" target="wlPglwLVcUlU7t9mJw_d-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wlPglwLVcUlU7t9mJw_d-7" value="查询可用的兑换码" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-7" value="查询领取方式为兑换码兑换的优惠券列表" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="404" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlPglwLVcUlU7t9mJw_d-9" target="wlPglwLVcUlU7t9mJw_d-11" edge="1">
@@ -46,7 +46,7 @@
         <mxCell id="wlPglwLVcUlU7t9mJw_d-11" value="输入：学员id，兑换码" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="604" y="440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wlPglwLVcUlU7t9mJw_d-13" value="输入：优惠券模板id" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-13" value="输入：优惠券模板id，优惠券状态码，分页信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="604" y="330" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-15" value="输入：数量，优惠券模板id" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;" parent="1" vertex="1">
@@ -55,14 +55,14 @@
         <mxCell id="wlPglwLVcUlU7t9mJw_d-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlPglwLVcUlU7t9mJw_d-19" target="wlPglwLVcUlU7t9mJw_d-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wlPglwLVcUlU7t9mJw_d-19" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="130" y="700.5" width="30" height="60" as="geometry" />
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-19" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="940" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlPglwLVcUlU7t9mJw_d-20" target="wlPglwLVcUlU7t9mJw_d-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-20" value="批量创建优惠券" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="195" y="700.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlPglwLVcUlU7t9mJw_d-22" target="wlPglwLVcUlU7t9mJw_d-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -71,33 +71,33 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-22" value="校验是否能创建" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="415" y="690.5" width="80" height="80" as="geometry" />
+          <mxGeometry x="415" y="930" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-24" value="1.优惠券模板是否启用&lt;br&gt;2.优惠券是否在有效期内&lt;br&gt;3.优惠券是否达到生成数量上限&lt;br&gt;4.单次创建是否达到创建上限" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="610" y="585" width="200" height="120" as="geometry" />
+          <mxGeometry x="640" y="910" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="wlPglwLVcUlU7t9mJw_d-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlPglwLVcUlU7t9mJw_d-26" edge="1">
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="wlPglwLVcUlU7t9mJw_d-26" edge="1" target="wlPglwLVcUlU7t9mJw_d-28">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="595" y="890.5" as="targetPoint" />
+            <mxPoint x="595" y="1190.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-26" value="批量创建优惠券&lt;br&gt;批量插入生成记录" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="395" y="860.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="395" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-28" value="1.生成指定数量的优惠券&lt;br&gt;2.生成指定数量的优惠券生成记录（generate_type 为4 后台批量创建）" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="575" y="850" width="205" height="80" as="geometry" />
+          <mxGeometry x="604" y="1080" width="205" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlPglwLVcUlU7t9mJw_d-30" target="wlPglwLVcUlU7t9mJw_d-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-30" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="130" y="1130" width="30" height="60" as="geometry" />
+          <mxGeometry x="120" y="1235" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlPglwLVcUlU7t9mJw_d-31" target="wlPglwLVcUlU7t9mJw_d-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-31" value="兑换优惠券" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="195" y="1130" width="120" height="60" as="geometry" />
+          <mxGeometry x="185" y="1235" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlPglwLVcUlU7t9mJw_d-33" target="wlPglwLVcUlU7t9mJw_d-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -106,19 +106,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-33" value="优惠券是否有效" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="405" y="1120" width="80" height="80" as="geometry" />
+          <mxGeometry x="395" y="1225" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-35" value="1. 根据兑换码是否能检索到优惠券&lt;br&gt;&lt;div&gt;&lt;span&gt;2.优惠券是否有效（在有效期里，是否超过领取数量限制，优惠券状态是否正常）&lt;/span&gt;&lt;/div&gt;3.领取方式是否为兑换码兑换" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="550" y="960" width="440" height="110" as="geometry" />
+          <mxGeometry x="610" y="1210" width="440" height="110" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlPglwLVcUlU7t9mJw_d-37" target="wlPglwLVcUlU7t9mJw_d-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-37" value="领取优惠券" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="385" y="1270" width="120" height="60" as="geometry" />
+          <mxGeometry x="375" y="1375" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-39" value="1.更新优惠券状态为2 已领取， 更新有效时间范围&lt;br&gt;2.插入学员优惠券关系表记录&lt;br&gt;3.插入优惠券领取记录，领取方式为：4：兑换码兑换" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="650" y="1250" width="330" height="100" as="geometry" />
+          <mxGeometry x="640" y="1355" width="330" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlPglwLVcUlU7t9mJw_d-41" target="wlPglwLVcUlU7t9mJw_d-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -129,7 +129,7 @@
         <mxCell id="wlPglwLVcUlU7t9mJw_d-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlPglwLVcUlU7t9mJw_d-42" target="wlPglwLVcUlU7t9mJw_d-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wlPglwLVcUlU7t9mJw_d-42" value="查询未兑换的兑换码" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-42" value="查询领取方式为兑换码兑换的优惠券列表" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="195" y="1534" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wlPglwLVcUlU7t9mJw_d-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wlPglwLVcUlU7t9mJw_d-44" target="wlPglwLVcUlU7t9mJw_d-46" edge="1">
@@ -141,11 +141,77 @@
         <mxCell id="wlPglwLVcUlU7t9mJw_d-44" value="校验是否可以查询" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="415" y="1524" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wlPglwLVcUlU7t9mJw_d-46" value="1.优惠券规则中领取方式是否为兑换领取&lt;br&gt;2.优惠券是否未领取&lt;br&gt;3.优惠券是否在有效期内" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="605" y="1394" width="305" height="90" as="geometry" />
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-46" value="1.优惠券规则中领取方式是否为兑换领取" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;align=left;" parent="1" vertex="1">
+          <mxGeometry x="660" y="1519" width="305" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="wlPglwLVcUlU7t9mJw_d-48" value="检索优惠券列表，过滤兑换码并返回" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="wlPglwLVcUlU7t9mJw_d-48" value="检索优惠券列表，并返回" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="395" y="1694" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s1On3512aTmD8OA1m5fm-3" target="s1On3512aTmD8OA1m5fm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-3" value="学员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s1On3512aTmD8OA1m5fm-4" target="s1On3512aTmD8OA1m5fm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s1On3512aTmD8OA1m5fm-4" target="s1On3512aTmD8OA1m5fm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-4" value="领取优惠券" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="240" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s1On3512aTmD8OA1m5fm-6" target="s1On3512aTmD8OA1m5fm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-6" value="查询优惠券列表&lt;br&gt;（已经实现）" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#00CC00;" vertex="1" parent="1">
+          <mxGeometry x="430" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s1On3512aTmD8OA1m5fm-8" target="s1On3512aTmD8OA1m5fm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-8" value="领取优惠券" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="430" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-10" value="输入：学员id， 优惠券状态码， 分页信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="604" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-12" value="输入：学员id，优惠券id" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="604" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s1On3512aTmD8OA1m5fm-15" target="s1On3512aTmD8OA1m5fm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-15" value="学员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1865" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s1On3512aTmD8OA1m5fm-17" target="s1On3512aTmD8OA1m5fm-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-17" value="领取" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1865" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s1On3512aTmD8OA1m5fm-20" target="s1On3512aTmD8OA1m5fm-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-19" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s1On3512aTmD8OA1m5fm-20" target="s1On3512aTmD8OA1m5fm-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-20" value="优惠券是否有效" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1855" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-21" value="1. 根据优惠券id是否能检索到优惠券&lt;br&gt;&lt;div&gt;&lt;span&gt;2.优惠券是否有效（在有效期里，是否超过领取数量限制，优惠券状态是否正常）&lt;/span&gt;&lt;/div&gt;3.领取方式是否为学员主动领取" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1855" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s1On3512aTmD8OA1m5fm-23" target="s1On3512aTmD8OA1m5fm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-23" value="领取优惠券" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="375" y="2005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1On3512aTmD8OA1m5fm-24" value="1.更新优惠券状态为2 已领取， 更新有效时间范围&lt;br&gt;2.插入优惠券领取记录，领取方式为：2：学员主动领取" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1985" width="330" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
