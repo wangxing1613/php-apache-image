@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T11:52:38.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="N8s_lMIgYo-yqxRRILB2" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T12:04:47.337Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="DNTkNJCiBmL_fEmSmbvc" version="14.7.1" type="github">
   <diagram id="9hDP-JxcBApaVpeGbo42" name="Page-1">
-    <mxGraphModel dx="1108" dy="450" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="528" dy="214" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -370,7 +370,7 @@
         <mxCell id="ooBChvxL76VT8Zu8eEVh-12" value="优惠券服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="2865" y="628" width="88" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="ooBChvxL76VT8Zu8eEVh-15" value="我们以拉取618大促的优惠券为例&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;调用查询可投放的优惠券的接口&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;参数：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1.青少app对应的渠道编号（优惠券后台分配的channel值）&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;2.618大促的场景编号（优惠券后台分配的sub_channel值）&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=#FF0000;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
+        <mxCell id="ooBChvxL76VT8Zu8eEVh-15" value="我们以拉取618大促的优惠券为例&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;调用查询可投放的优惠券的接口&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;参数：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1.青少app对应的渠道编号（优惠券后台分配的channel值）&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2.618大促的场景编号（优惠券后台分配的sub_channel值）&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;strokeColor=#FF0000;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="2239" y="424" width="349" height="180" as="geometry" />
         </mxCell>
         <mxCell id="ooBChvxL76VT8Zu8eEVh-20" value="2.调用&lt;span style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;查询发放优惠券的接口&lt;/span&gt;" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ooBChvxL76VT8Zu8eEVh-10" target="ooBChvxL76VT8Zu8eEVh-12">
