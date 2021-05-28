@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-28T03:45:48.535Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="n40ohC4reXRTv2Zty3ZN" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-28T03:46:30.394Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="PdbLxGfjXxtZhrq2RXj0" version="14.7.2" type="github">
   <diagram id="9hDP-JxcBApaVpeGbo42" name="Page-1">
     <mxGraphModel dx="1108" dy="450" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -209,7 +209,7 @@
         <mxCell id="g9MvVECe36LYa2lej1_Y-2" value="直发" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="634" y="550" width="84" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g9MvVECe36LYa2lej1_Y-4" value="兑换" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF0000;" parent="1" vertex="1">
+        <mxCell id="g9MvVECe36LYa2lej1_Y-4" value="兑换" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="634" y="497" width="84" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g9MvVECe36LYa2lej1_Y-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g9MvVECe36LYa2lej1_Y-7" target="lwf3BBHvjB3YT5emJyM9-43" edge="1">
