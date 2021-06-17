@@ -1,1 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T03:56:00.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" version="14.7.9" etag="cG81y_xbfuYYFJEBjeXe" type="github"><diagram id="Ty2frtW4ptaLbaishtsI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-17T06:20:56.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="k6GG3llMgBraZutQMV1g" version="14.7.9" type="github">
+  <diagram id="Ty2frtW4ptaLbaishtsI" name="Page-1">
+    <mxGraphModel dx="1108" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tss1XIBpK0F8ik04c4sC-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tss1XIBpK0F8ik04c4sC-1" target="tss1XIBpK0F8ik04c4sC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tss1XIBpK0F8ik04c4sC-1" value="进入购买页" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tss1XIBpK0F8ik04c4sC-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tss1XIBpK0F8ik04c4sC-2" target="tss1XIBpK0F8ik04c4sC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tss1XIBpK0F8ik04c4sC-2" value="点击支付按钮" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tss1XIBpK0F8ik04c4sC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tss1XIBpK0F8ik04c4sC-4" target="tss1XIBpK0F8ik04c4sC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tss1XIBpK0F8ik04c4sC-4" value="创建支付订单" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tss1XIBpK0F8ik04c4sC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tss1XIBpK0F8ik04c4sC-6" target="tss1XIBpK0F8ik04c4sC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tss1XIBpK0F8ik04c4sC-6" value="跳转到支付授权页面" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="660" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tss1XIBpK0F8ik04c4sC-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tss1XIBpK0F8ik04c4sC-8" target="tss1XIBpK0F8ik04c4sC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tss1XIBpK0F8ik04c4sC-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.531;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tss1XIBpK0F8ik04c4sC-8" target="tss1XIBpK0F8ik04c4sC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tss1XIBpK0F8ik04c4sC-14" value="回调：获取支付信息，提交支付订单到支付中心" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tss1XIBpK0F8ik04c4sC-13">
+          <mxGeometry x="-0.2749" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tss1XIBpK0F8ik04c4sC-8" value="完成支付授权" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="820" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tss1XIBpK0F8ik04c4sC-10" value="确认支付" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="980" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tss1XIBpK0F8ik04c4sC-12" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;id&quot;: &quot;5O190127TN364715T&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;status&quot;: &quot;PAYER_ACTION_REQUIRED&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;intent&quot;: &quot;CAPTURE&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;payment_source&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;alipay&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;name&quot;: &quot;John Doe&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;country_code&quot;: &quot;C2&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;purchase_units&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;reference_id&quot;: &quot;d9f80740-38f0-11e8-b467-0ed5f89f718b&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;amount&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;currency_code&quot;: &quot;USD&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;value&quot;: &quot;100.00&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;payee&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;email_address&quot;: &quot;payee@example.com&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;create_time&quot;: &quot;2018-04-01T21:18:49Z&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;links&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;href&quot;: &quot;https://www.paypal.com/payment/alipay?token=5O190127TN364715T&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;rel&quot;: &quot;payer-action&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;method&quot;: &quot;GET&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;href&quot;: &quot;https://api-m.paypal.com/v2/checkout/orders/5O190127TN364715T&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;rel&quot;: &quot;self&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;method&quot;: &quot;GET&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; ]&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-700" width="520" height="730" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
