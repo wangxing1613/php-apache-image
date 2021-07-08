@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T02:29:31.989Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.8.0" etag="fD8Hi5acBZ7pgbzucCIh" type="github"><diagram id="N_pGWpOr9QxdPmwNqVXc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-08T02:33:23.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="sVhw9vB_MgelmBG3SdgZ" version="14.8.0" type="github">
+  <diagram id="N_pGWpOr9QxdPmwNqVXc" name="Page-1">
+    <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XsftpIpBNKXIHPJjnCgd-1" value="NGINX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="240" width="50" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="XsftpIpBNKXIHPJjnCgd-2" value="WOA" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="130" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XsftpIpBNKXIHPJjnCgd-3" value="XXXJob" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XsftpIpBNKXIHPJjnCgd-4" value="HP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="270" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XsftpIpBNKXIHPJjnCgd-5" value="CRM-C" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XsftpIpBNKXIHPJjnCgd-6" value="CRM-S" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XsftpIpBNKXIHPJjnCgd-7" value="HIVE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
