@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T12:36:40.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="iLzg1axjjA0T1iLQUqV5" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-23T08:12:22.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="YAPsDjtotFBXmgZ7QJgc" version="14.8.6" type="github">
   <diagram id="N_pGWpOr9QxdPmwNqVXc" name="Page-1">
-    <mxGraphModel dx="1108" dy="1563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1304" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
         <mxCell id="XsftpIpBNKXIHPJjnCgd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="XsftpIpBNKXIHPJjnCgd-3" target="XsftpIpBNKXIHPJjnCgd-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jyfU9Z09mGkaoYBqJidG-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XsftpIpBNKXIHPJjnCgd-3" target="XsftpIpBNKXIHPJjnCgd-4">
+        <mxCell id="jyfU9Z09mGkaoYBqJidG-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XsftpIpBNKXIHPJjnCgd-3" target="XsftpIpBNKXIHPJjnCgd-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XsftpIpBNKXIHPJjnCgd-3" value="XXLJob&lt;br&gt;127.0.0.1:9098" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -52,18 +52,8 @@
         <mxCell id="XsftpIpBNKXIHPJjnCgd-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="XsftpIpBNKXIHPJjnCgd-4" target="XsftpIpBNKXIHPJjnCgd-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jyfU9Z09mGkaoYBqJidG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.992;exitY=0.66;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XsftpIpBNKXIHPJjnCgd-4" target="XsftpIpBNKXIHPJjnCgd-32">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="560" y="463" />
-              <mxPoint x="560" y="780" />
-              <mxPoint x="460" y="780" />
-              <mxPoint x="460" y="980" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="XsftpIpBNKXIHPJjnCgd-4" value="HP&lt;br&gt;127.0.0.1:9093" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="414" y="430" width="120" height="50" as="geometry" />
+          <mxGeometry x="440" y="450" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XsftpIpBNKXIHPJjnCgd-41" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XsftpIpBNKXIHPJjnCgd-5" target="XsftpIpBNKXIHPJjnCgd-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -108,7 +98,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XsftpIpBNKXIHPJjnCgd-7" value="HIVE&lt;br&gt;127.0.0.1:9194" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="870" width="270" height="140" as="geometry" />
+          <mxGeometry x="540" y="880" width="270" height="140" as="geometry" />
         </mxCell>
         <mxCell id="XsftpIpBNKXIHPJjnCgd-8" value="EMAIL&lt;br&gt;smtp.163.com:25" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1320" y="195" width="110" height="60" as="geometry" />
@@ -123,16 +113,13 @@
           <mxGeometry x="280" y="-40" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XsftpIpBNKXIHPJjnCgd-21" value="阿里云MQ" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;" parent="1" vertex="1">
-          <mxGeometry x="1350" y="510" width="160" height="60" as="geometry" />
+          <mxGeometry x="1370" y="470" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XsftpIpBNKXIHPJjnCgd-23" value="EMAIL&lt;br&gt;smtp.qq.com:587" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1310" y="280" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XsftpIpBNKXIHPJjnCgd-25" value="OSS&lt;br&gt;login.51talk.com" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1290" y="645" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="XsftpIpBNKXIHPJjnCgd-32" value="gateway&lt;br&gt;:9887" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="520" y="950" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XsftpIpBNKXIHPJjnCgd-33" value="server&lt;br&gt;:9888" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="670" y="970" width="60" height="60" as="geometry" />
